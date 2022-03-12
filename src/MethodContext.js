@@ -1,5 +1,5 @@
 import { EventEmitter } from './EventEmitter';
-('use strict');
+//"use strict"
 /*
 1) В методе subscribe подпишитесь на событие click с помощью EventEmitter.on(eventName, callback).
 В обработчике нужно увеличивать значение поля count на 1
